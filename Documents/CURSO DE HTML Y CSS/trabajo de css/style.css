@@ -25,7 +25,7 @@ header
     align-content: space-between 20px;
     text-align: center;
     font-weight: 900;
-    font-size: larger;
+    font-size:larger
     height: 80px;
     width: 100%;
     background: rgb(40, 40, 236);
@@ -39,15 +39,43 @@ header
     margin: 10px;
     
 }
+.animado
+{
+    font-size: 60px;
+    color: black;
+    -webkit-box-reflect:
+    below -20px
+    linear-gradient(transparent, rgba(0,0,0,0,2));
+}
+.animado span
+{
+    font-family: "Alfa Slab One", cursive;
+    display:inline-block;
+    animation:wave-anim 1s infinite;
+    animation-delay:calc(0.1s * var(--item));
+}
+@keyframes wave-anim
+{
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+}
+
 
 .titulo
 {
+    display: grid;
     float: left;
     text-align: center;
     background-color: rgb(178, 53, 178);
-    width: 80%;
+    width: 100%;
     height: 1000px;
-    border-bottom: 1px solid purple;
+    border-bottom: 1px solid powderblue;
 }
 
 .card
@@ -63,28 +91,29 @@ header
 
 }
 
-.card image
+.card-image
 {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: .6;
-    transition: transform .75s
+    transition: transform .75s;
 
 }
-.card:hover .card image
+.card:hover .card-image
 {
     
     transform: scale(1.15);
 }
 aside
+
 {
+    align-items: center;
     text-align: center;
-    height: 1000px;
+    list-style: none;
     background: purple;
-    width: 20%;
+    width: 100%;
     float: right;
     border-bottom: 1px solid purple;
 }
@@ -92,8 +121,11 @@ aside
 
 .flex-container
 {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-auto-flow: dense;
     justify-content: space-evenly;
     background-color: rgb(178, 53, 178);
     
@@ -102,9 +134,10 @@ aside
 
 .flex-container img
 {
+    width: 100%;
+    height: 100%;
+
     
-    height: 400px;
-    width: 400px;
 }
 
 
@@ -116,7 +149,7 @@ aside
 }
 footer
 {
-    
+    display: bottom
 
     height: 60px;
     font-size: larger;
@@ -130,4 +163,77 @@ footer
     height: 80px;
     float: left;
     
+}
+
+.smcontainer
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1200px;
+    text-align: right;
+}
+.smcontainer .btn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    box-shadow: 0 5px 15px -5px #aaa;
+    margin: 10px;
+    border-radius: 30%;
+    overflow: hidden;
+    position: relative;
+    color: #42d2ff;
+}
+.smcontainer .btn .i{
+    position: relative;
+    z-index: 4;
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.3s ease-in-out;
+}
+
+.smcontainer .btn::before
+{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(#00c6ff #0072ff);
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+
+}
+
+.smcontainer .btn:hover
+{
+    color: #fff;
+    transform: scale(1.3);
+}
+
+.smcontainer .btn:hover::before{
+
+
+animation:onHover 0.7s 1;
+left: -10%;
+top: -10%;
+}
+
+@keyframes onhover {
+0% {
+    left: -110%;
+    top: 90%;
+}
+50%
+{
+    left: 10%;
+    top: -30%;
+}
+100%{
+    left: -10%;
+    top: -10%;
+}
 }
