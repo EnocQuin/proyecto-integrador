@@ -16,11 +16,12 @@ font-size: xx-large;
 }
 header
 {
+    
 
     display: flex;
     justify-content: space-between;
     justify-items: auto;
-    color: rgb(11, 0, 0);
+    color: rgb(202, 17, 17);
     align-self: top;
     align-content: space-between 20px;
     text-align: center;
@@ -28,15 +29,18 @@ header
     font-size:larger
     height: 80px;
     width: 100%;
-    background: rgb(40, 40, 236);
+    background-color:turqoise
     
     
 }
 
 .nav
 {
+    font-size: larger;
     list-style: none;
     margin: 10px;
+    color: #333;
+    font-weight: 800;
     
 }
 .animado
@@ -80,7 +84,8 @@ header
 
 .card
 {
-    
+    height: 230px;
+    width: 230px;
     background-color: #333;
     border-radius: 10px;
     outline: 1px solid rgba(255, 255, 255, .5);
@@ -104,7 +109,7 @@ header
 .card:hover .card-image
 {
     
-    transform: scale(1.15);
+    transform: scale(1.30);
 }
 aside
 
