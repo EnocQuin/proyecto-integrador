@@ -1,3 +1,4 @@
+
 *{
     margin: 0%;
     padding: 0%;
@@ -12,7 +13,7 @@ body{
 }
 header
 {
-    
+   
 
     display: flex;
     justify-content: space-between;
@@ -28,9 +29,10 @@ header
     background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
     margin bottom: 20px;
     padding bottom:20px;
-    
+   
 
-    
+
+   
 
 }
 h1{
@@ -45,7 +47,7 @@ h1{
     width: 175px;
     height: 80px;
     float: left;
-    
+   
 }
 
 .menu-button {
@@ -94,7 +96,7 @@ h1{
     justify-content: center;
     perspective: 90rem;
     perspective-origin: 30% 60%;
-    
+   
 }
 .texto-0{
   font-size: 45px;
@@ -105,7 +107,7 @@ h1{
     transform:rotateX(10deg) rotateY(15deg) scale3d(1,1,-0.9) scale(1.1) translateX(50px);
 }
 .card{
-    background: url(img3/image.jpg) center;
+    background: url(img/gim11.jpg) center;
     color: #ebdada;
   border-radius: 8px;
   padding: 0px 18px;
@@ -115,8 +117,8 @@ h1{
   transform: translate(0);
 
 
-    
-  
+   
+ 
 }
 
 .card::before {
@@ -196,17 +198,17 @@ h1{
 
 
   }
-  
+ 
   @keyframes rotate {
     from {
       transform: perspective(1200px) rotateY(0deg);
     }
-  
+ 
     to {
       transform: perspective(1200px) rotateY(360deg);
     }
   }
-  
+ 
   .gallery span {
     position: absolute;
     width: 100%;
@@ -215,7 +217,7 @@ h1{
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(380px);
   }
-  
+ 
   .gallery span img {
     position: absolute;
     width: 100%;
@@ -223,7 +225,7 @@ h1{
     object-fit: cover;
   }
     .introduccion{
-         background-image: url(img3/gim11.jpg);
+         background-image: url(img/gim11.jpg);
         height: 750px;
         width: 100%;
         text-align: center;
@@ -287,8 +289,8 @@ h1{
           width: 650px;
           height: 500px;
           perspective: 1000px;
-        
-        
+       
+       
         }
         .flip-card-inner {
           position: relative;
@@ -362,20 +364,20 @@ h1{
   flex-direction:column;
 }
 
-    
+   
     @media screen and (max-width:980px) {
         .div-transform {
        display: grid ;}
     }
-        
+       
     @media screen and (max-width: 767px) {
       .flip-card {
         width: 400px;
         height: 380px;
       }
     }
-      
-    
-        
-        
-    
+     
+   
+       
+       
+   
