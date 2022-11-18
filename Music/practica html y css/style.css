@@ -107,7 +107,7 @@ h1{
     transform:rotateX(10deg) rotateY(15deg) scale3d(1,1,-0.9) scale(1.1) translateX(50px);
 }
 .card{
-    background: url(img/gim11.jpg) center;
+    background: url(img/image.jpg) center;
     color: #ebdada;
   border-radius: 8px;
   padding: 0px 18px;
@@ -359,9 +359,11 @@ h1{
           font-size: 40px;
           font-weight: 700;
           background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+          margin-top: 80px;
       }
 .nav{
   flex-direction:column;
+  
 }
 
    
@@ -377,6 +379,29 @@ h1{
       }
     }
      
+   @media screen and (max-width: 767px) {
+    .separacion {
+      font-size: 30px;
+  
+    }
+   }
+   
+   @media screen and (max-width:767px) {
+    .flip-texto {
+      font-size: 15px;}
+      .flip-texto2{
+        font-size: 15px;}
+        .flip-texto3{
+          font-size: 15px;}
+          .nav{
+            font-size: 20px;}
+            .gallery{
+              height: 120px;
+              width: 200px;
+            }
+   }
+    
+   
    
        
        
