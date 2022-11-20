@@ -101,7 +101,7 @@ h1{
 }
 .texto-0{
   font-size: 55px;
-  background:  linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+  background: linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
   -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -373,11 +373,6 @@ h1{
         margin-top: 600px;
       }
 .
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
-:root {
-   --font-style: 'Nunito Sans', sans-serif;
-}
-
 
 
 
@@ -664,19 +659,6 @@ button span::before {
         }
     }
        
-    @media screen and (max-width: 767px) {
-      .flip-card {
-        width: 400px;
-        height: 380px;
-      }
-    }
-     
-   @media screen and (max-width: 767px) {
-    .separacion {
-      font-size: 30px;
-  
-    }
-   }
    
    @media screen and (max-width:767px) {
     .flip-texto {
@@ -695,9 +677,14 @@ button span::before {
                 .container-c{
                   top: 85% }
                   .container-c span{
-                    padding: 15px 40px;
-                
-   }
+                    padding: 15px 40px;}
+                    .separacion {
+                      font-size: 30px;}
+                      .flip-card {
+                        width: 400px;
+                        height: 380px;}
+                      }
+
     
    
    
