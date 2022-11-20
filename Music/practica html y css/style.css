@@ -562,7 +562,7 @@ button span::before {
 }
 
 .form {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
   width: 400px;
   border-radius: 8px;
   padding: 20px 40px;
@@ -603,8 +603,8 @@ button span::before {
   top: 15px;
   left: 15px;
   padding: 0 4px;
-  background-color: antiquewhite;
-  color: #DADCE0;
+  background-color: whitesmoke;
+  color: #244a95;
   font-size: 16px;
   transition: 0.5s;
   z-index: 0;
