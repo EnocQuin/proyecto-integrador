@@ -100,8 +100,10 @@ h1{
    
 }
 .texto-0{
-  font-size: 45px;
-  color: aliceblue;
+  font-size: 55px;
+  background:  linear-gradient(90deg, #3bd9d9 0%, #8035f0 100%);
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .div-transform{
     display: flex;
