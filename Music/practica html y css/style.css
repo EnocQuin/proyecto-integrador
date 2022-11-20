@@ -654,8 +654,12 @@ button span::before {
        display: grid ;}
        .separacion{
         margin-bottom: 100px;
-        margin-top: 100px;
-       }
+        margin-top: 100px;}
+       #footer-l{
+        margin-top: 900px;}
+        .login-box{
+          top:85%
+        }
     }
        
     @media screen and (max-width: 767px) {
@@ -685,12 +689,11 @@ button span::before {
               height: 120px;
               width: 200px;}
               .introduccion{
-                background-image: url(img/backgroundsmall2.jpg);}
+                background-image: url(img/background\ small.jpg);}
                 .container-c{
                   top: 85% }
                   .container-c span{
                     padding: 15px 40px;
-                  }
                 
    }
     
