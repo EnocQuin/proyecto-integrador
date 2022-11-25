@@ -98,13 +98,12 @@ h1{
         text-align: center;
         border:5px dotted dimgrey;
         padding: 30px;
-        width: 600px;
+        width: 500px;
         height: 250px;
-        justify-content: center;
+        justify-content: flex-start;
         align-content: center;
-        justify-self: center;
-        justify-items: center;
-        margin-left: 300px;
+
+        margin-left: 50px;
         }
         .wrapper .container{
             display: flex;
