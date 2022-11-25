@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    
+  <script src="./script/script.js"></script>
+      <!-- Google Fonts  -->
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  
+      <!-- Font Awesome Icons  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+          crossorigin="anonymous" />
+  
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoamor.png">
+        </div>
+        <h1>Genesis   Roxana</h1>
+    
+        <nav">
+            <label for="menu-toggle">
+                <div class="menu-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+      
+                </div>
+            </label>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+            <ul class="toggle">
+              <li><a href="index.html">inicio</a></li>
+              <li><a href="index2.html">planes</a></li>
+            
+            </ul>
+    
+        </nav></header>
+        
+<div class="contenedor">
+<div class="wrapper">
+
+<div class="container">
+
+<p id="question">
+Sabes quien te quiere?
+</p>
+<button id="yes" onclick="newfunction()" class="btn" > Si</button>
+<button id="no" onclick="newfun()" class="btn">No</button>
+</div>
+</div>
+
+
+<script>
+function newfunction(){
+document.getElementById('question').innerHTML = "Si, yo te quiero❤️";
+}
+function newfun(){
+document.getElementById('question').innerHTML = "No puedes tocar aqui😌";
+document.getElementById('no').innerHTML = "🤭";
+document.getElementById('no').style.backgroundColor = 'green';
+}
+
+$(function() {
+$("button").on({
+
+mouseover: function() {
+$(this).css({
+left: (Math.random() * 200) + "px",
+top: (Math.random() * 200) + "px",
+});
+}
+});
+});
+</script>
+</div>
+
+        <script class="alert">alert ("Feliz Cumpleaños!")
+        console.log ("mensaje escondido: Te Amo!")
+        </script>
+    </header>
+    <div class="hero">
+        <div class="static-txt">te deseo </div>
+        <ul class="dynamic-txts">
+          <li><span>Feliz Cumpleaños</span></li>
+          <li><span>mucha salud</span></li>
+          <li><span>mucho amor</span></li>
+          <li><span>mucha felicidad</span></li>
+        </ul>
+      </div>
+
+
+    <div class="gallery">
+        <span style="--i:1">
+          <img
+            src="img/img1.jpg"
+            alt="" />
+        </span>
+        <span style="--i:2">
+          <img
+            src="img/img2.jpg"
+            alt="" />
+        </span>
+        <span style="--i:3">
+          <img
+            src="img/img3.jpg"
+            alt="" />
+        </span>
+        <span style="--i:4">
+          <img
+            src="img/img4.jpg"
+            alt="" />
+        </span>
+        <span style="--i:5">
+          <img
+            src="img/img5.jpg"
+            alt="" />
+        </span>
+        <span style="--i:6">
+          <img
+            src="img/img6.jpg"
+            alt="" />
+        </span>
+        <span style="--i:7">
+          <img
+            src="img/img7.jpg"
+            alt="" />
+        </span>
+        <span style="--i:8">
+          <img
+            src="img/img8.jpg"
+            alt="" />
+        </span>
+      </div>
+      <h1 class="heart"><i class="fas fa-heart"></i></h1>
+
+      
+
+<body>
+    <div class="conteudo-geral js-conteudo-geral">
+      <div class="componente-interno-geral">
+        <div class="componente">
+          <div class="componente-sem-rolagem">
+            <div class="componente-interno">
+              <div class="componente-fundo-imagem"></div>
+              <div class="componente-visual-inicial">
+                <h2 class="componente-titulo">HTML</h2>
+              </div>
+              <div class="componente-content">
+                <div class="componente-text">HTML</div>
+                <div class="componente-botao-fechar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="componente-index">
+            <div class="componente-index-back">1</div>
+            <div class="componente-index-front">
+              <div class="componente-index-overlay" data-index="1">1</div>
+            </div>
+          </div>
+        </div>
+        <div class="componente">
+          <div class="componente-sem-rolagem">
+            <div class="componente-interno">
+              <div class="componente-fundo-imagem"></div>
+              <div class="componente-visual-inicial">
+                <h2 class="componente-titulo">CSS</h2>
+              </div>
+              <div class="componente-content">
+                <div class="componente-text">CSS</div>
+                <div class="componente-botao-fechar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="componente-index">
+            <div class="componente-index-back">2</div>
+            <div class="componente-index-front">
+              <div class="componente-index-overlay" data-index="2">2</div>
+            </div>
+          </div>
+        </div>
+        <div class="componente">
+          <div class="componente-sem-rolagem">
+            <div class="componente-interno">
+              <div class="componente-fundo-imagem"></div>
+              <div class="componente-visual-inicial">
+                <h2 class="componente-titulo">Javascript</h2>
+              </div>
+              <div class="componente-content">
+                <div class="componente-text">Javascript</div>
+                <div class="componente-botao-fechar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="componente-index">
+            <div class="componente-index-back">3</div>
+            <div class="componente-index-front">
+              <div class="componente-index-overlay" data-index="3">3</div>
+            </div>
+          </div>
+        </div>
+        <div class="componente">
+          <div class="componente-sem-rolagem">
+            <div class="componente-interno">
+              <div class="componente-fundo-imagem"></div>
+              <div class="componente-visual-inicial">
+                <h2 class="componente-titulo">GIT</h2>
+              </div>
+              <div class="componente-content">
+                <div class="componente-text">GIT</div>
+                <div class="componente-botao-fechar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="componente-index">
+            <div class="componente-index-back">4</div>
+            <div class="componente-index-front">
+              <div class="componente-index-overlay" data-index="4">4</div>
+            </div>
+          </div>
+        </div>
+        <div class="componente">
+          <div class="componente-sem-rolagem">
+            <div class="componente-interno">
+              <div class="componente-fundo-imagem"></div>
+              <div class="componente-visual-inicial">
+                <h2 class="componente-titulo">React</h2>
+              </div>
+              <div class="componente-content">
+                <div class="componente-text">React</div>
+                <div class="componente-botao-fechar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="componente-index">
+            <div class="componente-index-back">5</div>
+            <div class="componente-index-front">
+              <div class="componente-index-overlay" data-index="5">5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+  
+</body>
+</html>
